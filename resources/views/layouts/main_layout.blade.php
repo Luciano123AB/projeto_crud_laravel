@@ -7,12 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Text from the layout (TOP)</p>
-    <hr>
-
-    @yield("content")
-
-    <hr>
-    <p>Text from the layout (BOTTOM)</p>
+    
 </body>
 </html>
