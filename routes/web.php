@@ -7,5 +7,5 @@ Route::get("/", function () {
 });
 
 Route::get("/about", function(){
-    echo "About us";
+    echo "About Us";
 });
