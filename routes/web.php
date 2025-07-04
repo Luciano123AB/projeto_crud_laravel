@@ -8,7 +8,7 @@ Route::get("/", function () {
 });
 
 Route::get("/about", function(){
-    echo "About us";
+    echo "About Us:";
 });
 
 Route::get("/main/{value}", [MainController::class, "index"]);
