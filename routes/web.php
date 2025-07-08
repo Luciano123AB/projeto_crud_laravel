@@ -7,7 +7,7 @@ Route::get("/", function () {
     echo "Hello World!";
 });
 
-Route::get("/about", function(){
+Route::get("/about", function() {
     echo "About Us:";
 });
 
