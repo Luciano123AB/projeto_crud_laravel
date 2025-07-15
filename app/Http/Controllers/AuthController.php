@@ -48,7 +48,8 @@ class AuthController extends Controller
         //Login User:
         session(["user" => ["id" => $user->id, "username" => $user->username]]);
                     
-        echo "LOGIN COM SUCESSO!";
+        //Redirect to Home:
+        return redirect()->to("/");
     }
 
     public function logout() {
