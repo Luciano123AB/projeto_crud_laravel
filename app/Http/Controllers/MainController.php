@@ -24,9 +24,7 @@ class MainController extends Controller
     }
 
     public function newNoteSubmit(Request $request) {
-
         echo "I'm creating a new note.";
-
     }
 
     public function editNote($id) {
